@@ -4520,7 +4520,7 @@ class GeoData(object):
                            mask=(np.isnan(clim) | (n < nmin) |
                                  np.logical_not(
                                          (np.logical_not(self.data.mask)).
-                                         mean(axis=0))))
+                                          mean(axis=0))))
         del slim  # number of data taken into account for climatology
         del n
 
